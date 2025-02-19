@@ -1,0 +1,19 @@
+
+.home{
+    background-color: #1ABC9C;
+}
+.home-star{
+    display: flex;
+    position: relative;
+    justify-content: center;
+  
+}
+.home-star::before,
+.home-star::after{
+    content: '';
+    border-bottom: 4px solid white;
+    margin: 0 10px;
+    width: 8%;
+    margin-bottom: 7px;
+  
+}
